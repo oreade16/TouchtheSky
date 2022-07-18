@@ -22,14 +22,7 @@ function CheckoutForm(){
         console.log(JSON.stringify(values));
         },
     });
-
-   
-
-
-    
-
 return(
-    
     <div className="CheckoutForm">
         <Navbar />
         <Typography gutterBottom variant="h3" align="center">

@@ -1,0 +1,24 @@
+tailwind css
+
+Go to space: Customer
+Go to space: Business/ Enterprise (Satellite)
+1.Satellite
+2. Robots
+3. Milkshake- ()
+
+Fill out form about business model
+We'll get back to you with a quote
+1. Cost
+2. Picture of Satellite ($100000)
+3.Robots($50000)
+
+Verify the business model
+Send us a payment
+
+Carousels
+Upload ID
+Verify
+
+Save on https://github.com/oreade16/TouchtheSky
+
+
