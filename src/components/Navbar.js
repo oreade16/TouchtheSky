@@ -32,14 +32,24 @@ function Navbar(){
 
                     
                     <Button color = 'inherit'>
-                        <Link>
+                        <Link to={`/About`}>
                         About
                         </Link>
-                        
                     </Button> 
 
-                    <Button color = 'inherit'>Checkout</Button>
-                    <Button color = 'inherit'>Contact Us</Button> 
+                    <Button color = 'inherit'>
+                        <Link to={`/Checkout`}>
+                        Checkout
+                        </Link>
+                        </Button>
+
+
+                    <Button color = 'inherit'>
+                        <Link to={`/Contact_Us`}>
+                        Contact Us
+                        </Link> 
+                        
+                        </Button> 
 
             </Toolbar>
         </AppBar>
