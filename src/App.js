@@ -11,18 +11,22 @@ import ThemeProvider from '@mui/material';
 import { ReactDOM } from 'react';
 import SideMenu from './components/SideMenu';
 import Selector from './components/Select';
-
+import CarouselPage from "./components/CarouselPage"
+import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom"
 
 import React, { Component } from 'react';
 import FormUserDetails from './components/FormUserDetails';
 import CheckoutForm from './components/CheckoutForm';
+import Navbar2 from './components/Navbar2';
+import CountdownTimer from './components/CountdownTimer';
 
 function App(){
   
   return(
     <>
-
-     <CheckoutForm />
+    <div className='App'>
+     <CountdownTimer countdownTimestampMs={1660683442000} />
+     </div>
     
     </>
  

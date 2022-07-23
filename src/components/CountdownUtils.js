@@ -12,7 +12,7 @@ export function getRemainingUntilMsTimeStamp(timestampMs){
 
 }
 function getRemainingSeconds(nowDayjs, timestampDayjs) {
-    const seconds = timestampDayjs.diff(nowDayjs, 'seconds') % 60;
+    const seconds = timestampDayjs.diff(nowDayjs,'seconds') % 60;
     return seconds;
 
 }
