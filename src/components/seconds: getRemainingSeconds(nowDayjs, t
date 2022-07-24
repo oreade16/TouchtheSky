@@ -1,0 +1,4 @@
+    seconds: getRemainingSeconds(nowDayjs, timestampDayjs),
+    minutes: getRemainingMinutes (nowDayjs, timestampDayjs),
+    hours: getRemainingHours (nowDayjs, timestampDayjs),
+    days:  getRemainingDays(nowDayjs, timestampDayjs)
