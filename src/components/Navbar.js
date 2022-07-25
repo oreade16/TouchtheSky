@@ -24,8 +24,8 @@ function Navbar(){
             <Toolbar>
                 <IconButton size='large' edge ='start' color='inherit' aria-label='logo'>
                     <RocketLaunchIcon />
-
                 </IconButton>
+  
                     <Typography variant='h6' component='div' sx={{flexGrow:1}}>Touch the Sky</Typography>
 
                     <Stack direction='row' spacing = {1}></Stack>
