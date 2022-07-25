@@ -24,7 +24,11 @@ function App(){
   
   return(
     <>
-    <div className='App'>
+    <div className='App' style={{
+      display: "flex",
+      flexDirection: "column"
+    }}>
+      <CheckoutForm /> 
      <CountdownTimer countdownTimestampMs={1660683442000} />
      </div>
     

@@ -20,7 +20,7 @@ function Navbar(){
     return(
     <div>
     <ThemeProvider theme={theme}>
-        <AppBar position='static'>
+        <AppBar position='fixed'>
             <Toolbar>
                 <IconButton size='large' edge ='start' color='inherit' aria-label='logo'>
                     <RocketLaunchIcon />
