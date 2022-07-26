@@ -19,14 +19,18 @@ import FormUserDetails from './components/FormUserDetails';
 import CheckoutForm from './components/CheckoutForm';
 import Navbar2 from './components/Navbar2';
 import CountdownTimer from './components/CountdownTimer';
+import Footer from './components/Footer';
+import BookSpaceTravel from './components/BookSpaceTravel';
+import CountrySelect from './components/CountrySelect';
 
 function App(){
   
   return(
     <>
     <div className='App'>
-     <CountdownTimer countdownTimestampMs={1660683442000} />
+      <CountrySelect />
      </div>
+     
     
     </>
  
