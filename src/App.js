@@ -22,13 +22,18 @@ import CountdownTimer from './components/CountdownTimer';
 import Footer from './components/Footer';
 import BookSpaceTravel from './components/BookSpaceTravel';
 import CountrySelect from './components/CountrySelect';
+import ContactUs from "./components/ContactUs"
+import BuyPage from "./components/BuyPage"
+import Deposit from "./components/Deposit"
 
 function App(){
   
   return(
     <>
     <div className='App'>
-      <CountrySelect />
+      <Navbar />
+     <Deposit />
+      
      </div>
      
     
